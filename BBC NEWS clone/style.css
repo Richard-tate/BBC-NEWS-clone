@@ -45,7 +45,7 @@ body{
 
 .line{
     position: relative;
-    top: .2rem;
+    top: -.05rem;
     left: .1rem;
 }
 .topbar-section p {
@@ -374,4 +374,30 @@ span.blue{
   }
   .card-img img{
       width: 100%;
+  }
+
+  .footer-news{
+      width: 100%;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 1rem;
+  }
+  .footer-card-container{
+      display: flex;
+  }
+  .footer-card-container a{
+      text-decoration: none;
+      color: #000;
+      font-size: .8rem;
+  }
+  .footer-card-container a:hover{
+    text-decoration: underline 1px;
+    color: rgb(0, 0, 120);
+  }
+  .footer-card{
+      margin: 0 1rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .footer-card span{
+      font-size: .7rem;
   }
